@@ -34,7 +34,7 @@ namespace BasketballStats.WebApi.Data
 
         public virtual DbSet<Match> Matches { get; set; }
         public virtual DbSet<Player> Players { get; set; }
-        public virtual DbSet<Stat> Stats { get; set; }
+        public virtual DbSet<Stat> BasketballStats { get; set; }
         public virtual DbSet<Team> Teams { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
